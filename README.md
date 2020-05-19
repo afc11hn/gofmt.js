@@ -11,4 +11,4 @@ console.log(gofmt("func main() {\nprintln() }"));
 
 If you include `gofmt.js` in the browser, the formatting function is exposed as `window.gofmt`. This function returns false if there was an error, and a string containing the formatted code otherwise.
 
-As of this writing, this was compiled from Go 1.7.4's formatting code.
+As of this writing, this was compiled from Go 1.12.16's formatting code.
